@@ -12,7 +12,7 @@
     <string name="multiply">*</string>
     <string name="plus">+</string>
     <string name="minus">-</string>
-    <string name="comma">,</string>
+    <string name="comma">.</string>
     <string name="equal">=</string>
 
     <string name="zero">0</string>

@@ -1,7 +1,7 @@
 package com.example.calculator
 
 import android.os.Bundle
-import android.util.Log
+//import android.util.Log
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     fun numberAction(view: View) {
         if (view is Button) {
             when {
-                view.text == "," -> {
+                view.text == "." -> {
                     if (canAddDecimal) binding.workingsTV.append(view.text)
                     canAddDecimal = false
                 }
@@ -47,20 +47,20 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun clearAction(view: View) {
+    fun clearAction(@Suppress("UNUSED_PARAMETER") view: View) {
         binding.workingsTV.text = "0"
         binding.resultsTV.text = ""
         canAddOperation = true
         canAddDecimal = true
     }
 
-    fun eraseAction(view: View) {
+    fun eraseAction(@Suppress("UNUSED_PARAMETER") view: View) {
         val length = binding.workingsTV.length()
         if (length == 1) binding.workingsTV.text = "0"
         else if (length > 0) binding.workingsTV.text = binding.workingsTV.text.subSequence(0, length - 1)
     }
 
-    fun equalsAction(view: View) {
+    fun equalsAction(@Suppress("UNUSED_PARAMETER") view: View) {
         binding.resultsTV.text = calculateResults()
     }
 

@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:lines="2"
             android:maxLines="2"
-            android:text="0"
+            android:text="@string/zero"
             android:textAlignment="textEnd"
             android:textColor="@color/white"
             android:textSize="25sp"
@@ -49,6 +49,7 @@
 
         <Button
             style="@style/buttonNumber"
+            android:onClick="@null"
             android:text="" />
 
         <Button
