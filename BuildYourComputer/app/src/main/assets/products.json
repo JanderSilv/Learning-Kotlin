@@ -1,0 +1,32 @@
+[
+  {
+    "name": "SSD SanDisk Plus 480GB",
+    "description": "Confiável, rápido e muita capacidade. A SanDisk, pioneira em tecnologias de armazenamento de estado sólido é a marca de confiança dos profissionais da área, oferece maior velocidade e desempenho com o SanDisk SSD Plus.",
+    "price": "450,00"
+  },
+  {
+    "name": "Intel Core i5 10400F",
+    "description": "Os novos processadores da 10ª geração oferecem atualizações de desempenho incríveis para melhorar a produtividade e proporcionar entretenimento surpreendente.",
+    "price": "1050,00"
+  },
+  {
+    "name": "Memória Ram Corsair  8GB DDR4",
+    "description": "Memória Corsair Vengeance LPX, 8GB, 2666MHz, DDR4, C16, Preto.",
+    "price": "369,00"
+  },
+  {
+    "name": "GeForce RTX 3090 24GB",
+    "description": "Os blocos de construção para a GPU mais rápida e eficiente do mundo, o novo Ampere SM traz 2X a taxa de transferência do FP32 e maior eficiência de energia.",
+    "price": "18.499,00"
+  },
+  {
+    "name": "Teclado Mecânico Gamer T-Dagger Corvette",
+    "description": "Teclado Mecânico Gamer T-Dagger Corvette, LED Rainbow, Switch Outemu DIY Blue, ABNT2 - T-TGK302 -BL (PT-BLUE).",
+    "price": "229,00"
+  },
+  {
+    "name": "Gabinete Gamer",
+    "description": "A série Carbide SPEC-DELTA RGB é uma caixa ATX de torre média de vidro temperado com estilo angular impressionante, fluxo de ar potente e três ventiladores de refrigeração RGB incluídos.",
+    "price": "799,00"
+  }
+]
