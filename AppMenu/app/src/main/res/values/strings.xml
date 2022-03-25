@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppMenu</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="list">Listar</string>
+    <string name="save">Salvar</string>
+    <string name="update">Alterar</string>
+    <string name="delete">Excluir</string>
+</resources>
