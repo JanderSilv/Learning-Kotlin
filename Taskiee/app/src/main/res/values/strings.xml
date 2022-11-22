@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Databases</string>
+    <string name="taskie">Taskie</string>
+    <string name="task_name">task name</string>
+    <string name="task_description">task description</string>
+    <string name="button">Button</string>
+    <string name="task_create">create</string>
+</resources>
